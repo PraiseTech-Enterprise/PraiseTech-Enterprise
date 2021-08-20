@@ -1,5 +1,4 @@
-PraiseTech Enterprise
+##PraiseTech Enterprise
 
-we are coding company ready to deliver the very best of services and just in Time.
-With our team of experienced software developers, we are sure of building 
-software that will solve your problem withing a short time. 
+PraiseTech is a purely coding company ready to deliver the very best of services and just in time.
+With our team of experienced developers in practically all areas, we are sure to give you the best of services there is and Just In Time 

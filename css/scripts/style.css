@@ -117,7 +117,7 @@ overflow:auto;
 margin-top:10px;
 text-align:center;
 transition-duration:800ms;
-display:block;
+display:none;
 box-shadow:1px 4px 30px 0px rgb(212, 211, 211);
 }
 #menuContent button{

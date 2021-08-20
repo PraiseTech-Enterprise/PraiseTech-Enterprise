@@ -66,18 +66,17 @@ color:white;
 }
 
 #preview img{
-  max-width:70%;
+  max-width:100%;
   max-height:200px;
-  background:transparent;
-  display:none;
+  background:none;
+ 
 }
 #preview #image{
   width:30%;
   height:inherit;
   text-align:center;
   background-size:100%;
-  background:url("../../images/preview.png") no-repeat 100% 100% #0099FF;
-}
+ }
 nav button:hover{
 background:rgba(0, 0, 0, 0.124);
 text-decoration-color:rgb(28, 27, 27);
@@ -97,10 +96,16 @@ transition:all;
 nav button{
   font-weight:bold;
 padding:6px 11px;
+
+}
+nav *{
+  color:rgb(39, 38, 38) !important;
 }
 nav{
   border-bottom:1px solid rgba(10, 9, 9, 0.138);
-  background:rgba(0, 0, 0, 0.46);
+  background:rgba(255, 254, 254, 0.994);
+height:70px !important;
+box-shadow:1px 2px 10px 0px rgb(228, 227, 227);
 }
 #media{
   left:0;
@@ -131,17 +136,16 @@ nav{
 background:rgb(242, 242, 242);
 display:flex;
 flex-flow:row wrap;
-
 }
 
 #serviceList #ctn{
-width:24% !important;
+width:45%;
 border-radius:10px;
 background:white;
 box-shadow:1px 0px 10px 0px rgb(228, 227, 227);
 padding:13px;
 margin-left:1%;
-min-width:200px;
+margin:0 auto;
 margin-top:5px;
 }
 #serviceList #ctn i{
@@ -160,6 +164,7 @@ color:var(--red);
   color:rgb(107, 107, 107);
   font-size:small;
   padding:1px 20px;
+  width:100%;
 }
 #serviceList #ctn #head{
   width:100%;
@@ -170,8 +175,190 @@ color:var(--red);
   font-weight:bolder;
   font-size:larger;
 }
+
+#preview #image,#preview #image nav{
+  display:none;
+}
+
+#preview section{
+  width:100%;
+}
+nav .flexBetween{
+display:none;
+}
+nav #menu{
+  font-size:x-large;
+}
 @media screen and (min-width:450px){
   #serviceList #ctn{
     min-width:100px !important;
+    width:45%;
   }
+  footer form{
+    text-align: center;
+  }
+  
+#contactForm{
+  margin:auto;
+transform:translate(-0px, 0px);
+padding-left:0px;
+
+}
+nav .flexBetween{
+  display:flex;
+}
+nav #menu{
+  display:none;
+}
+  form button{
+margin-left:50% !important;
+width:50% !important;
+  }
+#serviceList {
+  background:rgb(242, 242, 242);
+  display:flex;
+  flex-flow:row wrap;
+}
+
+footer #box{
+  width:200px !important;
+}  
+}
+
+
+@media screen and (min-width:800px){
+  
+#preview #image,#preview img{
+  display:block;
+}
+section{
+  width:60%;
+}
+  #serviceList #ctn{
+    min-width:100px !important;
+    width:24%;
+  }
+  footer #box{
+    width:auto;
+  }
+}
+#aboutGroup{
+  background:rgb(255, 255, 255);
+  height:auto;
+max-height:500px;
+overflow:auto;
+text-align:center;
+}
+#aboutGroup #infoBox{
+  width:60%;
+  text-align:center;
+}
+#aboutGroup img{
+  width:80%;
+}
+#aboutGroup #infoBox #circle{
+background:rgb(230, 226, 226);
+padding:8px 15px;
+width:max-content;
+border-radius:20px;
+margin:0 auto;
+}
+
+#aboutGroup #infoBox h4{
+  color:var(--colorBg);
+  font-weight:bolder;
+}
+#aboutGroup #infoBox i{
+  color:rgb(155, 154, 154);
+}
+#aboutGroup #infoBox #infoBoxShadow{
+  padding:10px;
+}
+
+#aboutGroup #infoBox section{
+padding: 20px 16px;
+}
+
+#aboutGroup #infoBox section b{
+color:var(--red);
+}
+footer *{
+  color:white;
+}
+footer{
+  flex-flow:row wrap;
+}
+form input,form textarea{
+border-bottom:1px solid rgb(230, 230, 230);
+}
+
+form textarea{
+  
+  border:1px solid rgb(230, 230, 230);
+border-radius:6px;
+}
+form button{
+  background:var(--red);
+  color:white;
+  width:100%;
+  margin-top:3px;
+  
+}
+
+form button:hover{
+  background:white;
+  color:black;
+}
+form button:active{
+  width:50%;
+  margin-left:50%;
+}
+footer #box{
+width:100%;
+
+height:100%;
+padding:20px;
+}
+footer #box button{
+  width:100%;
+  text-align:start;
+  color:rgb(231, 230, 230);
+  padding:6px;
+}
+
+#contactForm{
+  margin:0 auto;
+transform:translate(-15px, 0px);
+width:auto;
+}
+footer #box button:hover{
+  background:rgba(0, 0, 0, 0.13);
+}
+footer #heading{
+  font-weight:bolder;
+  padding:0px;
+  text-align:start;
+}
+footer .ourService{
+  width:250px !important;
+}
+footer #social button{
+  width: 30px;
+  height:30px;
+  border-radius:2px;
+  background:rgba(248, 248, 248, 0.342)
+  ;
+  margin-left:5px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:10px;
+}
+footer #social button:hover{
+  background:rgb(255, 255, 255);
+  color:rgb(0, 0, 0);
+}
+footer #social {
+  padding:20px 0px;
+  
 }

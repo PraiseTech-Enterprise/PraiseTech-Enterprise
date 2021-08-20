@@ -2,10 +2,10 @@
   --colorBg:rgb(6, 25, 131);
   --red:rgb(252, 25, 25);
 }
-#top{
+#top,footer{
  background-color:var(--colorBg);
  background-size:100% 100%;
- background-image:url("../../images/bg.jp");
+ background-image:url("../../images/prev.webp");
 }
 #top *{
   color:white;
@@ -17,6 +17,7 @@
 #top section{
   width:70%;
   padding-left:23px;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 nav img{
   width:50px;
@@ -72,7 +73,8 @@ color:white;
  
 }
 #preview #image{
-  width:30%;
+  padding-top:30px;
+  width:40%;
   height:inherit;
   text-align:center;
   background-size:100%;
@@ -107,11 +109,36 @@ nav{
 height:70px !important;
 box-shadow:1px 2px 10px 0px rgb(228, 227, 227);
 }
+/*these are fixed content*/
+#menuContent{
+background:rgb(112, 106, 106);
+height:90%;
+overflow:auto;
+margin-top:10px;
+text-align:center;
+transition-duration:800ms;
+display:block;
+box-shadow:1px 4px 30px 0px rgb(212, 211, 211);
+}
+#menuContent button{
+  text-align:center;
+  padding:10px;
+  width:100%;
+  displaY:block;
+  color:black;
+  border-bottom:1px solid rgb(245, 244, 244);
+
+  font-weight:bolder;
+}
+#menuContent button:hover{
+  color:var(--red);
+background:rgba(209, 209, 209, 0.205);
+}
 #media{
   left:0;
   width:30px;
   height:auto;
-  background:rgba(0, 0, 0, 0.261);
+  background:rgba(0, 0, 0, 0.404);
   margin-top:100px;
   margin-left:2px;
   color:white;
@@ -121,6 +148,7 @@ box-shadow:1px 2px 10px 0px rgb(228, 227, 227);
 #media a{
   padding:10px 0px;
   text-align:center;
+  border-bottom:1px solid rgba(177, 177, 177, 0.344);
 }
 #media a:hover{
   width:100%;
@@ -139,7 +167,7 @@ flex-flow:row wrap;
 }
 
 #serviceList #ctn{
-width:45%;
+width:90%;
 border-radius:10px;
 background:white;
 box-shadow:1px 0px 10px 0px rgb(228, 227, 227);
@@ -245,8 +273,7 @@ section{
 #aboutGroup{
   background:rgb(255, 255, 255);
   height:auto;
-max-height:500px;
-overflow:auto;
+
 text-align:center;
 }
 #aboutGroup #infoBox{
@@ -257,7 +284,7 @@ text-align:center;
   width:80%;
 }
 #aboutGroup #infoBox #circle{
-background:rgb(230, 226, 226);
+background:rgb(226, 226, 230);
 padding:8px 15px;
 width:max-content;
 border-radius:20px;
@@ -277,6 +304,8 @@ margin:0 auto;
 
 #aboutGroup #infoBox section{
 padding: 20px 16px;
+margin:0 auto;
+width:100%;
 }
 
 #aboutGroup #infoBox section b{
@@ -287,15 +316,18 @@ footer *{
 }
 footer{
   flex-flow:row wrap;
+  
 }
 form input,form textarea{
 border-bottom:1px solid rgb(230, 230, 230);
+background:rgba(0, 0, 0, 0.541);
 }
 
 form textarea{
   
   border:1px solid rgb(230, 230, 230);
 border-radius:6px;
+
 }
 form button{
   background:var(--red);
@@ -310,8 +342,7 @@ form button:hover{
   color:black;
 }
 form button:active{
-  width:50%;
-  margin-left:50%;
+  background:rgb(196, 175, 175);
 }
 footer #box{
 width:100%;

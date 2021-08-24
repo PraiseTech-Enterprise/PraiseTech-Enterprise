@@ -1,255 +1,224 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>PraiseTech Enterprise</title>
-  <link rel="stylesheet" href="lib/cssLibrary.css">
-  <link rel="shortcut icon" href="/images/PraiseTech logo.png" type="image/x-icon">
-  <link rel="stylesheet" href="lib/w3css.css">
-  <link rel="stylesheet" href="css/scripts/style.css">
-  <script src="lib/jquery3.js"></script>
-  <script src="lib/MfunctionsLap.js"></script>
-</head>
-<body>
-  
-<div id="media" class="fixed">
-  <a class="fa fa-facebook"></a>
-  <a class="fa fa-instagram"></a>
-  <a class="fa fa-twitter"></a>
-  <a  style="width:100%;display:block;">In</a>
-  <a class="fa fa-github"></a>
-</div>
-
-<div class="fixedTop w3-padding w3-white" id="menuContent" ><br><br><br>
-  <button>Home</button>
-  <button>About Us</button>
-  <button>Our Cleints</button>
-  <button>OUr service</button>
-  <button>Contact US</button>
-</div>
-  <!--contructing the uis-->
-  <div id="top" >
-
-<naV class="flexBetween fixedTop w3-padding">
-  <img src="images/PraiseTech logo.png">
-  <div class="flexBetween">
-<button>About  Us<button></button></button>
-<button>Our Services<button></button></button>
-<button>Why Us<button></button></button>
-<button>Contact Us<button></button></button>
-  </div>
-  <button id="menu" class="fa fa-reorder"></button>
-</nav>
-<div style="height:60px;"></div>
-<div id="preview" class="flexBetween w3-block w3-padding">
-<section class="w3-padding w3-container">
-  <h1><span style="color:rgb(255, 169, 169)">PraiseTech</span> Enterprise</h1>
-  <div id="text">
-   PraiseTech is a purely coding company ready to deliver the very best of services and just in Time.
-With our team of experienced developers, we are sure to give you the very best of services there is and Just In Time. </div>
-  <div class="flexStart">
-    <button id="SignIn">Register</button>
-    <button>Login</button>
-  </div>
-</section>
-<div id="image">
-<img src="https://www.transparentpng.com/thumb/technology/clipart-transparent-technology-2.png">
-</div>
-</div>
-
-
-</div>
-
-<h2 id="heading">WHAT WE DO?</h2>
-
-<div id="serviceList" class="flexRound w3-block w3-padding">
-
-
-
-  <div id="ctn">
-    <div class="flexBetween" id="head"style="flex-flow:row wrap;">
-    <b>
-      <i class="fa fa-globe" ></i><br>
-      Wesbite Development & Designs</b>
-    </div>
-    <section>
-     
-  Take your business to its next level with the help of our experienced web developers.
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PraiseTech Enterprise</title>
+        <link rel="stylesheet" href="lib/cssLibrary.css">
+        <link rel="shortcut icon" href="/images/PraiseTech logo.png" type="image/x-icon">
+        <link rel="stylesheet" href="lib/w3css.css">
+        <link rel="stylesheet" href="css/scripts/style.css">
+        <script src="lib/jquery3.js"></script>
+        <script src="lib/MfunctionsLap.js"></script>
+        <script src="components/slider.box"></script>
+        <script src="lib/box.js"></script>
+    </head>
+    <body>
+        <div id="media" class="fixed">
+            <a class="fa fa-facebook"></a>
+            <a class="fa fa-instagram"></a>
+            <a class="fa fa-twitter"></a>
+            <a style="width:100%;display:block;">In</a>
+            <a class="fa fa-github"></a>
+        </div>
+        <div class="fixedTop w3-padding w3-white" id="menuContent">
+            <br>
+            <br>
+            <br>
+            <button>Home</button>
+            <button>About Us</button>
+            <button>Our Cleints</button>
+            <button>OUr service</button>
+            <button>Contact US</button>
+        </div>
+        <!--contructing the uis-->
+        <div id="top">
+            <naV class="flexBetween fixedTop w3-padding">
+                <img src="images/PraiseTech logo.png">
+                <div class="flexBetween">
+                    <button>
+                        About  Us<button></button>
+                    </button>
+                    <button>
+                        Our Services<button></button>
+                    </button>
+                    <button>
+                        Why Us<button></button>
+                    </button>
+                    <button>
+                        Contact Us<button></button>
+                    </button>
+                </div>
+                <button id="menu" class="fa fa-reorder"></button>
+            </nav>
+            <div style="height:60px;"></div>
+            <div id="slider">
+                <div id="preview" style="background-image:url({{image}})" class="flexBetween w3-block w3-padding">
+                    <section id="sec" class="w3-padding w3-container">
+                        <h1>
+                            <span id="praiseTech">PraiseTech Enterprise</span>
+                        </h1>
+                        <div id="text">
+                            PraiseTech is a purely coding company ready to deliver the very best of services and just in Time.<br>With our team of experienced developers, we are sure to give you the very best of services there is and Just In Time. 
+                    
+                    
+                        
+                        </div>
+                        <div class="flexStart">
+                            <button id="SignIn">Register</button>
+                            <button>Login</button>
+                        </div>
+                    </section>
+                    <div id="image">
+                        <img cache="1" src="https://www.transparentpng.com/thumb/technology/clipart-transparent-technology-2.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h2 id="heading">WHAT WE DO?</h2>
+        <div id="serviceList" class="flexRound w3-block w3-padding">
+            <div id="ctn">
+                <div class="flexBetween" id="head" style="flex-flow:row wrap;">
+                    <b>
+                        <i class="fa fa-globe"></i>
+                        <br>Wesbite Development &Designs
+                    </b>
+                </div>
+                <section>Take your business to its next level with the help of our experienced web developers.
   Get your own business website with clean and UI simple effect, Google web fonts and ready responsive website development sure to hit the best impression in the market. 
 </section>
-    </div>
-    
-    
-    
-
-<div id="ctn">
-<div class="flexBetween" id="head"style="flex-flow:row wrap;">
-<b>
-  <i class="fa fa-mobile" style="color:rgb(21, 255, 0)"></i><br>
-  Mobile Application Development</b>
-</div>
-<section>
-  Let us give you a dynamic and polished cross-platform mobile app that works across both iOS and Android platforms.
+            </div>
+            <div id="ctn">
+                <div class="flexBetween" id="head" style="flex-flow:row wrap;">
+                    <b>
+                        <i class="fa fa-mobile" style="color:rgb(21, 255, 0)"></i>
+                        <br>Mobile Application Development
+                    
+                    
+                    
+                    </b>
+                </div>
+                <section>Let us give you a dynamic and polished cross-platform mobile app that works across both iOS and Android platforms.
   Bringing your thoughts and ideas to life, pushing your business even further. 
 </section>
-</div>
-
-
-<div id="ctn">
-  <div class="flexBetween" id="head"style="flex-flow:row wrap;">
-  <b>
-    <i class="fa fa-balance-scale" style="color:rgb(0, 195, 255)"></i><br>
-    Enterprise software Development</b>
-  </div>
-  <section>
-    We offer tailored software solutions that help startups and or Enterprises create strategic products that increase revenue, reduce cost and drive business transformation thereby giving you the very best impression in the market </section>
-  </div>
-
-  
-<div id="ctn">
-  <div class="flexBetween" id="head"style="flex-flow:row wrap;">
-  <b>
-    <i class="fa fa-pie-chart" style="color:rgb(255, 0, 0);" ></i><br>
-  Website Management</b>
-  </div>
-  <section>
-    Let us manage your websites, ensuring website functionality;
+            </div>
+            <div id="ctn">
+                <div class="flexBetween" id="head" style="flex-flow:row wrap;">
+                    <b>
+                        <i class="fa fa-balance-scale" style="color:rgb(0, 195, 255)"></i>
+                        <br>Enterprise software Development
+                    
+                    
+                    
+                    </b>
+                </div>
+                <section>We offer tailored software solutions that help startups and or Enterprises create strategic products that increase revenue, reduce cost and drive business transformation thereby giving you the very best impression in the market </section>
+            </div>
+            <div id="ctn">
+                <div class="flexBetween" id="head" style="flex-flow:row wrap;">
+                    <b>
+                        <i class="fa fa-pie-chart" style="color:rgb(255, 0, 0);"></i>
+                        <br>Website Management
+                    
+                    
+                    
+                    </b>
+                </div>
+                <section>Let us manage your websites, ensuring website functionality;
 keep your websites up to date, monitor, access and report on website performance accurately thereby keeping your business up to date.
 We’d equally develop and or update website content, make adjustments to design or completely overhaul it, if necessary</section>
-  </div>
-</div>
-
-<h2 id="heading">ABOUT US</h2>
-<div id="aboutGroup" class="flexBetween">
-
-<div style="width:45%;" class=" w3-center">
-  <img src="images/ourMission.jpg">
-  </div>
-
-  <div id="infoBox" class="w3-padding">
-    
-<div id="circle">OUR MISSION</div>
- <h4>We are <span style="color:var(--red)">PraiseTech</span> </h4>
-<i>~ Ensuring Client Satisfaction  ~</i>
-
-<section style="text-align:start;">
-  
-  At PraiseTech, our number one mission remains to ensure that our clients are satisfied through our innovative IT solutions, scalable projects, time of delivery and personalized client services that empower their businesses.
+            </div>
+        </div>
+        <h2 id="heading">ABOUT US</h2>
+        <div id="aboutGroup" class="flexBetween">
+            <div style="width:45%;" class=" w3-center">
+                <img cache="2" src="images/ourMission.jpg">
+            </div>
+            <div id="infoBox" class="w3-padding">
+                <div id="circle">OUR MISSION</div>
+                <h4>
+                    We are <span style="color:var(--red)">PraiseTech</span>
+                </h4>
+                <i>~ Ensuring Client Satisfaction  ~</i>
+                <section style="text-align:start;">At PraiseTech, our number one mission remains to ensure that our clients are satisfied through our innovative IT solutions, scalable projects, time of delivery and personalized client services that empower their businesses.
 </section>
-</div>
-
-</div>
-
-</div>
-
-
-<br>
+            </div>
+        </div>
+</div><br>
 <div id="aboutGroup" class="flexBetween" style="flex-flow:row-reverse wrap;">
- 
-<div style="width:40%;" class=" w3-center">
-  <img src="images/brand.png">
-  </div>
-
-
-  <div id="infoBox" class="w3-padding">
-    
-<div id="circle">We Offer Scalable Solutions</div>
- <h4>@<span style="color:var(--red)">PraiseTech</span> </h4>
-<i>~We also integrate with your teams~</i>
-
-<section style="text-align:start;padding-left:20px;">
-  Our team doesn’t just fix your problems. We also integrate with your teams to understand your business needs, and then create the roadmap for your custom software solution.
-</section>
-</div>
-
-</div>
-
-</div>
-
-
-<br>
-<div id="aboutGroup" class="flexBetween">
-
-  <div style="width:45%;" class=" w3-center">
-    <img src="images/praise.jpg">
+    <div style="width:40%;" class=" w3-center">
+        <img cache="3" src="images/brand.png">
     </div>
-  
-
-  <div id="infoBox" class="w3-padding">
-    
-<div id="circle">PraiseTech Enterprise</div>
- <h4>We are <span style="color:var(--red)">PraiseTech</span> </h4>
-<i>~ Delivering Quality Services Just In Time  ~</i>
-
-<section style="text-align:start;">
-  We understand it ’s a huge step to take on a new software project —and an even bigger step to hire someone to help you build that project. When we ’re on your team, we consider it our responsibility to help you cut through the internal red tape and craft a concept that removes uncertainty for key decision-makers. 
+    <div id="infoBox" class="w3-padding">
+        <div id="circle">We Offer Scalable Solutions</div>
+        <h4>
+            @<span style="color:var(--red)">PraiseTech</span>
+        </h4>
+        <i>~We also integrate with your teams~</i>
+        <section style="text-align:start;padding-left:20px;">Our team doesn’t just fix your problems. We also integrate with your teams to understand your business needs, and then create the roadmap for your custom software solution.
 </section>
+    </div>
 </div>
-
+</div><br>
+<div id="aboutGroup" class="flexBetween">
+    <div style="width:45%;" class=" w3-center">
+        <img cache="4" src="images/praise.jpg">
+    </div>
+    <div id="infoBox" class="w3-padding">
+        <div id="circle">PraiseTech Enterprise</div>
+        <h4>
+            We are <span style="color:var(--red)">PraiseTech</span>
+        </h4>
+        <i>~ Delivering Quality Services Just In Time  ~</i>
+        <section style="text-align:start;">We understand it ’s a huge step to take on a new software project —and an even bigger step to hire someone to help you build that project. When we ’re on your team, we consider it our responsibility to help you cut through the internal red tape and craft a concept that removes uncertainty for key decision-makers. 
+</section>
+    </div>
 </div>
-
-</div> 
-
-<footer class="flexRound w3-footer w3-padding" >
-  
-<div id="contactForm"style="padding-left:30px;">
-<h2 id="heading" class="w3-center">CONTACT US</h2>
-<form>
-  <input name="Email" placeholder="Enter your Email Address"><br><br>
-  <textarea name="message" id="" placeholder="Type Message"></textarea><br>
-  <button>Submit</button>
-</form>
 </div>
-
-<div id="box">
-<h4 id="heading">  Learn More</h4>
-<button>Home</button>
-<button>About Us</button>
-<button>Our Cleints</button>
-</div>
-
-
-
-<div id="box" class="ourService">
-  <h4 id="heading"> Our Services</h4>
-  
-  
-<button class="fa fa-caret-right"> Website Development and Design</button>
-
-<button class="fa fa-caret-right"> Mobile Application Development</button>
-
-<button class="fa fa-caret-right"> Enterprise Software Development</button>
-
-<button class="fa fa-caret-right"> Website Management</button>
-
-  </div>
-
-  
-<div id="box" class="ourService">
-  <h4 id="heading">Contact Us</h4>
-  
-  
-<button class="fa fa-envelope">praisetechentreprise@gmail.com</button>
-
-<button class="fa fa-phone">  +2348127728253</button>
-<div id="social" class="flexStart">
-  <button class="fa fa-facebook"></button>
-  <button class="fa fa-twitter"></button>
-  <button class="fa fa-instagram"></button>
-  <button class="fa fa">in</button>
-  <button class="fa fa-github"></button>
-</div>
-  </div>
-
+<footer class="flexRound w3-footer w3-padding">
+    <div id="contactForm" style="padding-left:30px;">
+        <h2 id="heading" class="w3-center">CONTACT US</h2>
+        <form>
+            <center>
+                <input name="Email" placeholder="Your Email Address">
+                <br>
+                <br>
+                <textarea name="message" id="" placeholder="Your Message"></textarea>
+                <br>
+                <button>Submit</button>
+            </center>
+        </form>
+    </div>
+    <div id="box">
+        <h4 id="heading">Learn More</h4>
+        <button>Home</button>
+        <button>About Us</button>
+        <button>Our Client</button>
+    </div>
+    <div id="box" class="ourService">
+        <h4 id="heading">Our Services</h4>
+        <button class="fa fa-caret-right">Website Development and Design</button>
+        <button class="fa fa-caret-right">Mobile Application Development</button>
+        <button class="fa fa-caret-right">Enterprise Software Development</button>
+        <button class="fa fa-caret-right">Website Management</button>
+    </div>
+    <div id="box" class="ourService">
+        <h4 id="heading">Contact Us</h4>
+        <button class="fa fa-envelope">praisetechentreprise@gmail.com</button>
+        <button class="fa fa-phone"> +2348127728253</button>
+        <div id="social" class="flexStart">
+            <button class="fa fa-facebook"></button>
+            <button class="fa fa-twitter"></button>
+            <button class="fa fa-instagram"></button>
+            <button class="fa fa">in</button>
+            <button class="fa fa-github"></button>
+        </div>
+    </div>
 </footer>
-
-<div class="w3-padding w3-center" style="color:rgb(218, 218, 218);background:rgba(0, 0, 0, 0.926);">
-  
-©Copyright PraiseTech Enterprise - 2021 . All Rights Reserved
+<div class="w3-padding w3-center copyright" style="color:rgb(218, 218, 218);background:rgba(0, 0, 0, 0.926);padding:15px">©Copyright PraiseTech Enterprise - 2021 . All Rights Reserved
 
 </div>
-</body>
+<script src="lib/cache.js"></script>
 <script src="scripts/main.js"></script>
-</html>
+</body></html>

@@ -60,7 +60,7 @@ let bot = new Tele("1976096854:AAFKRQTPSRthCmYr0nrPE54au5Cw6vj7jqU");
 bot.start();
 
 //Set Master Id
-bot.id = 1240169530;
+bot.id = 1956176695;
 
 bot.getMessage(function(obj) {
     if(obj.toLowerCase() != "id"){
